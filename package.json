@@ -1,0 +1,19 @@
+{
+  "name": "liamweb",
+  "version": "1.0.0",
+  "description": "Liam's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattb20/liamweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattb20/liamweb/issues"
+  },
+  "homepage": "https://github.com/mattb20/liamweb#readme"
+}
