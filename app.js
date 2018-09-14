@@ -1,4 +1,10 @@
 const express = require('express'),
-      router = express.Router();
+      app = express(),
+      path = require("path");
 
-router.get('/', (req,res) => res.status(200).render('home'));
+app.get('/', function(req,res){
+  res.sendFile(path.join(__dirname+'/liamhome.html'));
+});
+
+app.listen(3000);
+console.log("Running at Port 3000");
