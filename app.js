@@ -1,4 +1,4 @@
-var express = require('express');
-var app = express();
+const express = require('express'),
+      router = express.Router();
 
-app.get('/')
+router.get('/', (req,res) => res.status(200).render('home'));
