@@ -18,6 +18,8 @@
   "homepage": "https://github.com/mattb20/liamweb#readme",
   "dependencies": {
     "express": "4.16.3",
+    "g": "2.0.1",
+    "gulp": "3.9.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   }
