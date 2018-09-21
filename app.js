@@ -3,6 +3,7 @@ const express = require('express'),
       path = require("path");
 
 app.use(express.static('scripts'));
+app.use(express.static('style'));
 
 app.get('/', function(req,res){
   res.sendFile(path.join(__dirname+'/liamhome.html'));
