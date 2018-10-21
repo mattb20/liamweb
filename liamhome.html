@@ -17,12 +17,12 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <form>
+        <form action="/" method="get">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </form>
       </li>
       <li class="nav-item">
-        <form>
+        <form action="/" method="get">
         <a class="nav-link" href="#">About</a>
         </form>
       </li>
@@ -37,13 +37,13 @@
           <form action="">
           <a class="dropdown-item" href="#">Another action</a>
           <div class="dropdown-divider"></div>
-          <form action="">
+          <form action="" method="get">
           <a class="dropdown-item" href="#">YouTube</a>
           </form>
         </div>
       </li>
       <li class="nav-item">
-        <form>
+        <form action="/shop" method="get">
         <a class="nav-link" href="#">Shop</a>
         </form>
       </li>
@@ -60,6 +60,8 @@
 <h1>{{ welcome }}</h1>
 </div>
 <div id="bio">
+  <div id="awards">
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
