@@ -9,8 +9,12 @@ app.get('/', function(req,res){
   res.sendFile(path.join(__dirname+'/liamhome.html'));
 });
 
-app.get('/facebook', function(req,res){
-  res.redirect('https://www.facebook.com/bantertruck');
+app.get('/about', function(req,res){
+  res.sendFile(path.join(__dirname+'about.html'));
+});
+
+app.get('/media', function(req,res){
+  res.sendFile(path.join(__dirname+'media.html'));
 });
 
 app.listen(3000);
